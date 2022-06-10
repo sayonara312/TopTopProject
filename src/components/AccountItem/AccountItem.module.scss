@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: #161823;
+  opacity: 0.75;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+.avatar {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+.name {
+  font-size: 1.6rem;
+}
+.check {
+  color: rgb(32, 213, 236);
+  margin-left: 8px;
+}
+
+.user-name {
+  color: #161823;
+  opacity: 0.5;
+  font-size: 1.4rem;
+}

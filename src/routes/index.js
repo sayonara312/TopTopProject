@@ -3,8 +3,9 @@ import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
-
+import Live from '~/pages/Live';
 import { HeaderOnly } from '~/components/Layout';
+
 const publicRoutes = [
   {
     path: '/',
@@ -15,13 +16,17 @@ const publicRoutes = [
     component: Following,
   },
   {
-    path: '/profile',
+    path: '/@:nickname',
     component: Profile,
   },
   {
     path: '/upload',
     component: Upload,
     layout: HeaderOnly,
+  },
+  {
+    path: '/live',
+    component: Live,
   },
   {
     path: '/search',
