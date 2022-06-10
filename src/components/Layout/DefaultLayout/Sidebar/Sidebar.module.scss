@@ -6,7 +6,22 @@
     text-transform: none;
     color: currentColor;
   }
+  height: 100vh;
+  position: fixed;
+  overflow-y: scroll;
+  &:hover ::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+  }
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
 .sidebarmain,
 .sidebaraccrecommend {
   margin: 10px 0px;
