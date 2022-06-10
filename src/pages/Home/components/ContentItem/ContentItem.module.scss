@@ -1,19 +1,19 @@
 .wrapper {
   margin-top: 24px;
-  margin-left: 100px;
+  margin-left: 94px;
   width: 692px;
-  height: 648px;
   padding: 20px 0;
   display: flex;
+  border-bottom: 1px solid rgba(22, 24, 35, 0.12);
 }
 .info {
   width: 510px;
 }
 .avatar {
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  margin-right: 24px;
+  height: 56px;
+  width: 56px;
+  margin-right: 10px;
 }
 .info-name {
 }
@@ -44,9 +44,17 @@
 .title {
 }
 .tag {
-  font-weight: 700;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #161823;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .music {
+  margin-bottom: 10px;
 }
 .music-name {
   font-weight: 700;
@@ -55,19 +63,47 @@
 .followBtn {
   height: 100px;
 }
-.video {
+.main-content {
+  display: flex;
+  align-items: flex-end;
   video {
     border-radius: 10px;
+    --width: 258px;
+    height: 462px;
   }
-  &::after {
-    content: '';
-    display: block;
+}
+.action {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.follow,
+.comment,
+.share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.btn-follow,
+.btn-comment,
+.btn-share {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 22px;
 
-    width: 100%;
-    height: 1px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  cursor: pointer;
+  &:hover {
     background: rgba(22, 24, 35, 0.12);
   }
+}
+.number {
+  color: #161823;
+  opacity: 0.75;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
 }
