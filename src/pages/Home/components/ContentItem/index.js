@@ -5,15 +5,18 @@ import Button from '~/components/Button';
 import styles from './ContentItem.module.scss';
 import { Link } from 'react-router-dom';
 import ConvertNumber from '~/ConvertNumber';
+
 const cx = classNames.bind(styles);
 function ContentItem({ data }) {
   return (
     <div className={cx('wrapper')}>
-      <img className={cx('avatar')} src={data.avatar} alt="anh" />
+      <Link to={`/@${data.nickname}`}>
+        <img className={cx('avatar')} src={data.avatar} alt="anh" />
+      </Link>
       <div className={cx('info')}>
         <div className={cx('info-name')}>
           <p className={cx('user-name')}>
-            <Link to="/" className={cx('username-link')}>
+            <Link to={`/@${data.nickname}`} className={cx('username-link')}>
               <span>{data.nickname}</span>
             </Link>
             {data.tick && <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />}
