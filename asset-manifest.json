@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/deploy-github/static/css/main.722a100c.css",
-    "main.js": "/deploy-github/static/js/main.a2a37c82.js",
-    "static/js/787.4c9d15e8.chunk.js": "/deploy-github/static/js/787.4c9d15e8.chunk.js",
-    "static/media/TikTok_logo.svg": "/deploy-github/static/media/TikTok_logo.14b216f9a9855279b3a15830bc19133d.svg",
-    "index.html": "/deploy-github/index.html",
-    "static/media/Search_icon.svg": "/deploy-github/static/media/Search_icon.664c67ff3dee68d3fd35886f504d0958.svg",
-    "main.722a100c.css.map": "/deploy-github/static/css/main.722a100c.css.map",
-    "main.a2a37c82.js.map": "/deploy-github/static/js/main.a2a37c82.js.map",
-    "787.4c9d15e8.chunk.js.map": "/deploy-github/static/js/787.4c9d15e8.chunk.js.map"
+    "main.css": "/TopTopProject/static/css/main.722a100c.css",
+    "main.js": "/TopTopProject/static/js/main.b9c6a96e.js",
+    "static/js/787.4c9d15e8.chunk.js": "/TopTopProject/static/js/787.4c9d15e8.chunk.js",
+    "static/media/TikTok_logo.svg": "/TopTopProject/static/media/TikTok_logo.14b216f9a9855279b3a15830bc19133d.svg",
+    "index.html": "/TopTopProject/index.html",
+    "static/media/Search_icon.svg": "/TopTopProject/static/media/Search_icon.664c67ff3dee68d3fd35886f504d0958.svg",
+    "main.722a100c.css.map": "/TopTopProject/static/css/main.722a100c.css.map",
+    "main.b9c6a96e.js.map": "/TopTopProject/static/js/main.b9c6a96e.js.map",
+    "787.4c9d15e8.chunk.js.map": "/TopTopProject/static/js/787.4c9d15e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.722a100c.css",
-    "static/js/main.a2a37c82.js"
+    "static/js/main.b9c6a96e.js"
   ]
 }
