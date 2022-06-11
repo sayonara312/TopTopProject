@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TopTopProject/static/css/main.6eb4a60e.css",
-    "main.js": "/TopTopProject/static/js/main.6731df69.js",
+    "main.js": "/TopTopProject/static/js/main.bbc25a2c.js",
     "static/js/787.4c9d15e8.chunk.js": "/TopTopProject/static/js/787.4c9d15e8.chunk.js",
     "static/media/TikTok_logo.svg": "/TopTopProject/static/media/TikTok_logo.14b216f9a9855279b3a15830bc19133d.svg",
     "index.html": "/TopTopProject/index.html",
     "static/media/Search_icon.svg": "/TopTopProject/static/media/Search_icon.664c67ff3dee68d3fd35886f504d0958.svg",
     "main.6eb4a60e.css.map": "/TopTopProject/static/css/main.6eb4a60e.css.map",
-    "main.6731df69.js.map": "/TopTopProject/static/js/main.6731df69.js.map",
+    "main.bbc25a2c.js.map": "/TopTopProject/static/js/main.bbc25a2c.js.map",
     "787.4c9d15e8.chunk.js.map": "/TopTopProject/static/js/787.4c9d15e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb4a60e.css",
-    "static/js/main.6731df69.js"
+    "static/js/main.bbc25a2c.js"
   ]
 }
