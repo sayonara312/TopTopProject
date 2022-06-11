@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TopTop/static/css/main.6eb4a60e.css",
-    "main.js": "/TopTop/static/js/main.8ba6c011.js",
-    "static/js/787.4c9d15e8.chunk.js": "/TopTop/static/js/787.4c9d15e8.chunk.js",
-    "static/media/TikTok_logo.svg": "/TopTop/static/media/TikTok_logo.14b216f9a9855279b3a15830bc19133d.svg",
-    "index.html": "/TopTop/index.html",
-    "static/media/Search_icon.svg": "/TopTop/static/media/Search_icon.664c67ff3dee68d3fd35886f504d0958.svg",
-    "main.6eb4a60e.css.map": "/TopTop/static/css/main.6eb4a60e.css.map",
-    "main.8ba6c011.js.map": "/TopTop/static/js/main.8ba6c011.js.map",
-    "787.4c9d15e8.chunk.js.map": "/TopTop/static/js/787.4c9d15e8.chunk.js.map"
+    "main.css": "/TopTopProject/TopTopProject/static/css/main.6eb4a60e.css",
+    "main.js": "/TopTopProject/TopTopProject/static/js/main.cb827baa.js",
+    "static/js/787.4c9d15e8.chunk.js": "/TopTopProject/TopTopProject/static/js/787.4c9d15e8.chunk.js",
+    "static/media/TikTok_logo.svg": "/TopTopProject/TopTopProject/static/media/TikTok_logo.14b216f9a9855279b3a15830bc19133d.svg",
+    "index.html": "/TopTopProject/TopTopProject/index.html",
+    "static/media/Search_icon.svg": "/TopTopProject/TopTopProject/static/media/Search_icon.664c67ff3dee68d3fd35886f504d0958.svg",
+    "main.6eb4a60e.css.map": "/TopTopProject/TopTopProject/static/css/main.6eb4a60e.css.map",
+    "main.cb827baa.js.map": "/TopTopProject/TopTopProject/static/js/main.cb827baa.js.map",
+    "787.4c9d15e8.chunk.js.map": "/TopTopProject/TopTopProject/static/js/787.4c9d15e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb4a60e.css",
-    "static/js/main.8ba6c011.js"
+    "static/js/main.cb827baa.js"
   ]
 }
