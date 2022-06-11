@@ -6,7 +6,7 @@ import styles from './AccountItem.module.scss';
 const cx = classNames.bind(styles);
 function AccountItem({ data }) {
   return (
-    <Link to={`/@${data.nickname}`} className={cx('wrapper')}>
+    <Link to={`/TopTopProject/@${data.nickname}`} className={cx('wrapper')}>
       <img className={cx('avatar')} src={data.avatar} alt="avatar" />
       <div className={cx('info')}>
         <h4 className={cx('name')}>

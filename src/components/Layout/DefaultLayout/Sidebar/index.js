@@ -136,19 +136,19 @@ const accountrmd = [
 const types = [
   {
     tab: 'home',
-    url: '/',
+    url: '/TopTopProject/',
     title: 'Dành cho bạn',
     icon: faHome,
   },
   {
     tab: 'following',
-    url: '/following',
+    url: '/TopTopProject/following',
     title: 'Đang follow',
     icon: faUserGroup,
   },
   {
     tab: 'live',
-    url: '/live',
+    url: '/TopTopProject/live',
     title: 'Live',
     icon: faVideo,
   },

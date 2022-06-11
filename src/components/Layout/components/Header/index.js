@@ -22,7 +22,7 @@ function Header() {
   return (
     <header className={cx('wrapper')}>
       <div className={cx('inner')}>
-        <Link to={`/`} className={cx('logo')}>
+        <Link to={`/TopTopProject/`} className={cx('logo')}>
           <img src={Logo} alt="TikTok" />
         </Link>
 

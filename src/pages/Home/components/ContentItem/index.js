@@ -10,13 +10,13 @@ const cx = classNames.bind(styles);
 function ContentItem({ data }) {
   return (
     <div className={cx('wrapper')}>
-      <Link to={`/@${data.nickname}`}>
+      <Link to={`/TopTopProject/@${data.nickname}`}>
         <img className={cx('avatar')} src={data.avatar} alt="anh" />
       </Link>
       <div className={cx('info')}>
         <div className={cx('info-name')}>
           <p className={cx('user-name')}>
-            <Link to={`/@${data.nickname}`} className={cx('username-link')}>
+            <Link to={`/TopTopProject/@${data.nickname}`} className={cx('username-link')}>
               <span>{data.nickname}</span>
             </Link>
             {data.tick && <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />}
@@ -32,7 +32,7 @@ function ContentItem({ data }) {
 
         <div className={cx('music')}>
           <FontAwesomeIcon icon={faMusic} />
-          <Link to="/" className={cx('tag')}>
+          <Link to="/TopTopProject/" className={cx('tag')}>
             <span className={cx('music-name')}>{data.music_name}</span>
           </Link>
         </div>

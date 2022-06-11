@@ -1,35 +1,35 @@
-import Home from '~/pages/Home';
-import Following from '~/pages/Following';
-import Profile from '~/pages/Profile';
-import Upload from '~/pages/Upload';
-import Search from '~/pages/Search';
-import Live from '~/pages/Live';
-import { HeaderOnly } from '~/components/Layout';
+import Home from '../pages/Home';
+import Following from '../pages/Following';
+import Profile from '../pages/Profile';
+import Upload from '../pages/Upload';
+import Search from '../pages/Search';
+import Live from '../pages/Live';
+import { HeaderOnly } from '../components/Layout';
 
 const publicRoutes = [
   {
-    path: '/',
+    path: '/TopTopProject/',
     component: Home,
   },
   {
-    path: '/following',
+    path: '/TopTopProject/following',
     component: Following,
   },
   {
-    path: '/@:nickname',
+    path: '/TopTopProject/@:nickname',
     component: Profile,
   },
   {
-    path: '/upload',
+    path: '/TopTopProject/upload',
     component: Upload,
     layout: HeaderOnly,
   },
   {
-    path: '/live',
+    path: '/TopTopProject/live',
     component: Live,
   },
   {
-    path: '/search',
+    path: '/TopTopProject/search',
     component: Search,
     layout: null,
   },
